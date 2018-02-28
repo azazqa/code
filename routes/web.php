@@ -14,3 +14,6 @@
 Route::get('/', function () {
     return view('welcome');
 });
+Route::get('/master_page', function () {
+    return view('test.master_page');
+});
